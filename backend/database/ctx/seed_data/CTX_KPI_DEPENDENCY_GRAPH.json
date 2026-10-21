@@ -1,0 +1,13 @@
+[
+  {
+    "KPI_ID": "KPI-001",
+    "KPI_NAME": "Total Material Stock Value",
+    "REUSABLE_COMPONENTS": "StockQuantity, MovingAveragePrice",
+    "DEPENDS_ON_KPI_IDS": "",
+    "PRIMARY_FND_COMPONENT": "Material Master",
+    "PRIMARY_RELATIONSHIP_IDS": "REL-001",
+    "FINAL_MEASURE": "STOCK_VALUE",
+    "TARGET_GRAIN": "Material, Plant",
+    "DESIGN_NOTE": "Seed dependency graph entry."
+  }
+]

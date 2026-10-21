@@ -1,0 +1,17 @@
+[
+  {
+    "RULE_ID": "HR-001",
+    "RULE_CLASS": "Currency",
+    "BUSINESS_ATTRIBUTE": "Stock Value",
+    "SOURCE_A": "Local Currency",
+    "SOURCE_B": "Group Currency",
+    "CANONICAL_OUTPUT": "Group Currency Amount",
+    "SOURCE_PRECEDENCE": "Group Currency > Local Currency",
+    "CANONICAL_KEY_RULE": "Material + Plant + Currency",
+    "VALUE_MAPPING_RULE": "Convert using exchange rate type M",
+    "UOM": "Currency",
+    "VALIDITY": "Permanent",
+    "LINEAGE_REQUIREMENT": "X",
+    "AI_BEHAVIOR_IF_RULE_MISSING": "Flag for review"
+  }
+]

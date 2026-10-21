@@ -1,0 +1,32 @@
+[
+  {
+    "MOVEMENT_TYPE": "101",
+    "DESCRIPTION": "Goods receipt for purchase order",
+    "MOVEMENT_CATEGORY": "Inbound",
+    "CONSUMPTION_FLAG": "",
+    "QUANTITY_SIGN": 1,
+    "REVERSAL_MOVEMENT_TYPE": 102,
+    "INCLUDE_IN_MVP": "X",
+    "STATUS": "Active"
+  },
+  {
+    "MOVEMENT_TYPE": "102",
+    "DESCRIPTION": "Goods receipt reversal",
+    "MOVEMENT_CATEGORY": "Inbound",
+    "CONSUMPTION_FLAG": "",
+    "QUANTITY_SIGN": -1,
+    "REVERSAL_MOVEMENT_TYPE": 101,
+    "INCLUDE_IN_MVP": "X",
+    "STATUS": "Active"
+  },
+  {
+    "MOVEMENT_TYPE": "261",
+    "DESCRIPTION": "Goods issue for cost center",
+    "MOVEMENT_CATEGORY": "Outbound",
+    "CONSUMPTION_FLAG": "X",
+    "QUANTITY_SIGN": -1,
+    "REVERSAL_MOVEMENT_TYPE": 262,
+    "INCLUDE_IN_MVP": "X",
+    "STATUS": "Active"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "RULE_ID": "RULE-001",
+    "RULE_TYPE": "Validation",
+    "RULE_NAME": "KPI must reference a valid source role",
+    "APPLIES_TO": "CTX_KPI_CATALOG",
+    "USES_KPI_OR_FIELD": "KPI_ID",
+    "CONDITION_IN_SIMPLE_LANGUAGE": "Every KPI must have SOURCE_ROLES populated.",
+    "PARAMETER_ID": "",
+    "SYSTEM_BEHAVIOUR": "Reject save if empty",
+    "NEED_ATTENTION_REASON_CODE": "",
+    "USER_REVIEW_ACTION": "Confirm source roles",
+    "SEVERITY": "High",
+    "ACTIVE_FLAG": "X"
+  },
+  {
+    "RULE_ID": "RULE-002",
+    "RULE_TYPE": "Harmonization",
+    "RULE_NAME": "Movement class reversal pairing",
+    "APPLIES_TO": "CTX_MOVEMENT_CLASS",
+    "USES_KPI_OR_FIELD": "REVERSAL_MOVEMENT_TYPE",
+    "CONDITION_IN_SIMPLE_LANGUAGE": "Reversal movement type must reference an existing movement type.",
+    "PARAMETER_ID": "",
+    "SYSTEM_BEHAVIOUR": "Validate referential integrity",
+    "NEED_ATTENTION_REASON_CODE": "",
+    "USER_REVIEW_ACTION": "Check reversal mapping",
+    "SEVERITY": "Medium",
+    "ACTIVE_FLAG": "X"
+  }
+]

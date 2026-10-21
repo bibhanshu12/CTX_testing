@@ -1,0 +1,32 @@
+[
+  {
+    "KPI_ID": "KPI-001",
+    "CATEGORY": "Inventory",
+    "KPI_NAME": "Total Material Stock Value",
+    "RELATED_MOVEMENT_TYPES": "101,102,261,262",
+    "BUSINESS_QUESTION": "What is the current material stock value?",
+    "BUSINESS_DEFINITION": "Sum of stock quantities valuated at moving average price.",
+    "BUSINESS_GRAIN": "Material, Plant, Valuation Area",
+    "OUTPUT_TYPE": "Amount",
+    "OUTPUT_FIELD": "STOCK_VALUE",
+    "USER_TERMS": "Stock value, inventory value",
+    "MINIMUM_HISTORY_DAYS": 30,
+    "MAIN_PARAMETER_IDS": "PARAM-001",
+    "STATUS": "Active"
+  },
+  {
+    "KPI_ID": "KPI-002",
+    "CATEGORY": "Finance",
+    "KPI_NAME": "Open Purchase Order Value",
+    "RELATED_MOVEMENT_TYPES": "",
+    "BUSINESS_QUESTION": "What is the total open PO value?",
+    "BUSINESS_DEFINITION": "Sum of net order value for POs not yet fully delivered/invoiced.",
+    "BUSINESS_GRAIN": "Purchase Order, Item",
+    "OUTPUT_TYPE": "Amount",
+    "OUTPUT_FIELD": "OPEN_PO_VALUE",
+    "USER_TERMS": "Open PO, backlog value",
+    "MINIMUM_HISTORY_DAYS": 90,
+    "MAIN_PARAMETER_IDS": "PARAM-002",
+    "STATUS": "Active"
+  }
+]

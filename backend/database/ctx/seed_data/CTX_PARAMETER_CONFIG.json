@@ -1,0 +1,26 @@
+[
+  {
+    "PARAMETER_ID": "PARAM-001",
+    "PARAMETER_TYPE": "Threshold",
+    "PARAMETER_NAME": "Minimum stock history days",
+    "APPLIES_TO": "KPI-001",
+    "VALUE_FROM": 1,
+    "VALUE_TO": 365,
+    "VALUE_TEXT": "",
+    "UNIT": "Days",
+    "BUSINESS_MEANING": "Minimum days of stock history to consider.",
+    "STATUS": "Active"
+  },
+  {
+    "PARAMETER_ID": "PARAM-002",
+    "PARAMETER_TYPE": "Threshold",
+    "PARAMETER_NAME": "Open PO age limit",
+    "APPLIES_TO": "KPI-002",
+    "VALUE_FROM": 1,
+    "VALUE_TO": 730,
+    "VALUE_TEXT": "",
+    "UNIT": "Days",
+    "BUSINESS_MEANING": "Maximum age for open POs to count.",
+    "STATUS": "Active"
+  }
+]

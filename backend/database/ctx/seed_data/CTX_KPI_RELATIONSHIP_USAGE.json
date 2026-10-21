@@ -1,0 +1,19 @@
+[
+  {
+    "KPI_ID": "KPI-001",
+    "KPI_NAME": "Total Material Stock Value",
+    "TARGET_GRAIN": "Material, Plant",
+    "SOURCE_ROLES": "SRC-ROLE-01",
+    "CORE_RELATIONSHIP_IDS": "REL-001",
+    "OPTIONAL_RELATIONSHIP_IDS": "",
+    "MANDATORY_PREAGGREGATION": "X",
+    "RECOMMENDED_JOIN_SEQUENCE": "OBJ-001 -> OBJ-002",
+    "CALCULATION_COMPONENTS": "StockQuantity, MovingAveragePrice",
+    "DERIVED_KPI_DEPENDENCIES": "",
+    "EXPECTED_FND_OBJECTS": "Material, Plant",
+    "EXPECTED_SEMANTIC_OUTPUT": "Stock value amount",
+    "HARMONIZATION": "Currency conversion to company code currency",
+    "TECH_REVIEW_TRIGGER": "On parameter change",
+    "DESIGN_GUIDANCE": "Use standard CDS for stock"
+  }
+]

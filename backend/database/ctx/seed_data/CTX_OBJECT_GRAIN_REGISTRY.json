@@ -1,0 +1,34 @@
+[
+  {
+    "OBJECT_ID": "OBJ-001",
+    "SOURCE_ROLE": "SRC-ROLE-01",
+    "DATASPHERE_OBJECT": "ZZ_DS_MATERIAL",
+    "SOURCE_CDS_API": "API_MATERIAL_SRV",
+    "S4_TABLE": "MARA",
+    "OBJECT_CLASS": "Material",
+    "BUSINESS_GRAIN": "Material",
+    "PHYSICAL_KEY_FIELDS": "MATNR",
+    "BUSINESS_JOIN_FIELDS": "MATNR",
+    "DEFAULT_LAYER": "Bronze",
+    "MODE": "Full",
+    "PREAGG_GUIDANCE": "Pre-aggregate by plant",
+    "MVP1_KPI_USAGE": "KPI-001",
+    "REFERENCE_URL": ""
+  },
+  {
+    "OBJECT_ID": "OBJ-002",
+    "SOURCE_ROLE": "SRC-ROLE-02",
+    "DATASPHERE_OBJECT": "ZZ_DS_PURCHASE_ORDER",
+    "SOURCE_CDS_API": "API_PURCHASE_ORDER_SRV",
+    "S4_TABLE": "EKKO",
+    "OBJECT_CLASS": "Purchase Order",
+    "BUSINESS_GRAIN": "Purchase Order",
+    "PHYSICAL_KEY_FIELDS": "EBELN",
+    "BUSINESS_JOIN_FIELDS": "EBELN",
+    "DEFAULT_LAYER": "Silver",
+    "MODE": "Delta",
+    "PREAGG_GUIDANCE": "No pre-aggregation",
+    "MVP1_KPI_USAGE": "KPI-002",
+    "REFERENCE_URL": ""
+  }
+]

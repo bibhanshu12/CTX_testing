@@ -1,0 +1,24 @@
+{
+  "namespace": "com.ev.bdcDataCatalyst",
+  "entity_sets": [
+    "CTX_RULEBOOK",
+    "CTX_MOVEMENT_CLASS",
+    "CTX_KPI_SOURCE_MAP",
+    "CTX_KPI_CATALOG_MVT_TYPE",
+    "CTX_CDS_S4_TABLE_FIELD_MAP",
+    "CTX_KPI_CATALOG",
+    "CTX_OBJECT_GRAIN_REGISTRY",
+    "CTX_RELATIONSHIP_REGISTRY",
+    "CTX_KPI_RELATIONSHIP_USAGE",
+    "CTX_HARMONIZATION_RULES",
+    "CTX_KPI_DEPENDENCY_GRAPH",
+    "CTX_PARAMETER_CONFIG",
+    "CTX_KPI_SAP_DETAIL",
+    "CTX_MVP_SCOPE",
+    "CTX_REQUIREMENT_CATALOG",
+    "CTX_KNOWLEDGE_LINK"
+  ],
+  "description": "CTX (bdcdata-catalyst) entity definitions for the SAP CAPM OData Explorer.",
+  "allowlist": "strict",
+  "note": "Only entities in this list are exposed. Imported metadata must not expand access beyond this allowlist."
+}

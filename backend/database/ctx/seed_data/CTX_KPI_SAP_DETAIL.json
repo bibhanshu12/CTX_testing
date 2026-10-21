@@ -1,0 +1,32 @@
+[
+  {
+    "KPI_ID": "KPI-001",
+    "SEQ": 1,
+    "SOURCE_ROLE": "SRC-ROLE-01",
+    "SAP_TABLE": "MARD",
+    "SAP_FIELD": "LABST",
+    "USE_IN_KPI": "X",
+    "FILTER": "",
+    "REQUIRED": "X"
+  },
+  {
+    "KPI_ID": "KPI-001",
+    "SEQ": 2,
+    "SOURCE_ROLE": "SRC-ROLE-01",
+    "SAP_TABLE": "MBEW",
+    "SAP_FIELD": "WAPRK",
+    "USE_IN_KPI": "X",
+    "FILTER": "",
+    "REQUIRED": "X"
+  },
+  {
+    "KPI_ID": "KPI-002",
+    "SEQ": 1,
+    "SOURCE_ROLE": "SRC-ROLE-02",
+    "SAP_TABLE": "EKKO",
+    "SAP_FIELD": "NETWR",
+    "USE_IN_KPI": "X",
+    "FILTER": "BSART = NB",
+    "REQUIRED": "X"
+  }
+]

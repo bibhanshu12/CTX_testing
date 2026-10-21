@@ -1,0 +1,36 @@
+[
+  {
+    "SOURCE_ROLE": "SRC-ROLE-01",
+    "SCANNER_OBJECT_ALIAS": "MaterialStock",
+    "DATASPHERE_LOCAL_TABLE": "ZZ_CTX_MAT_STOCK",
+    "SOURCE_CDS_API": "API_MATERIAL_STOCK_SRV",
+    "DATASPHERE_CDS_FIELD": "STOCK_QUANTITY",
+    "BUSINESS_FIELD": "Stock Quantity",
+    "SAP_S4_TABLE": "MARD",
+    "SAP_S4_FIELD": "LABST",
+    "SAP_FIELD_MEANING": "Unrestricted stock",
+    "KEY_FLAG": "",
+    "SEMANTIC_TYPE": "Quantity",
+    "MAPPING_TYPE": "Direct",
+    "MVP1_REQUIRED": "X",
+    "MAPPING_VALIDATION_NOTE": "",
+    "REFERENCE_URL": ""
+  },
+  {
+    "SOURCE_ROLE": "SRC-ROLE-02",
+    "SCANNER_OBJECT_ALIAS": "PurchaseOrder",
+    "DATASPHERE_LOCAL_TABLE": "ZZ_CTX_PO",
+    "SOURCE_CDS_API": "API_PURCHASEORDER_PROCESS_SRV",
+    "DATASPHERE_CDS_FIELD": "NET_VALUE",
+    "BUSINESS_FIELD": "Net PO Value",
+    "SAP_S4_TABLE": "EKKO",
+    "SAP_S4_FIELD": "NETWR",
+    "SAP_FIELD_MEANING": "Net order value",
+    "KEY_FLAG": "X",
+    "SEMANTIC_TYPE": "Amount",
+    "MAPPING_TYPE": "Direct",
+    "MVP1_REQUIRED": "X",
+    "MAPPING_VALIDATION_NOTE": "",
+    "REFERENCE_URL": ""
+  }
+]

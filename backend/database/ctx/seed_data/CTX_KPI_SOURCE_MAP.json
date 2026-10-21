@@ -1,0 +1,26 @@
+[
+  {
+    "MAP_ID": "MAP-001",
+    "KPI_ID": "KPI-001",
+    "SOURCE_ROLE": "SRC-ROLE-01",
+    "SOURCE_TYPE": "CDS View",
+    "STANDARD_CDS_CANDIDATE": "I_MaterialStock",
+    "MAIN_LOGICAL_FIELDS_NEEDED": "Material,Plant,StockQuantity",
+    "MANDATORY_FLAG": "X",
+    "PURPOSE": "Map KPI to standard CDS source",
+    "VALIDATION_STATUS": "Validated",
+    "NOTES": "Seed example mapping."
+  },
+  {
+    "MAP_ID": "MAP-002",
+    "KPI_ID": "KPI-002",
+    "SOURCE_ROLE": "SRC-ROLE-02",
+    "SOURCE_TYPE": "S4 Table",
+    "STANDARD_CDS_CANDIDATE": "",
+    "MAIN_LOGICAL_FIELDS_NEEDED": "BUKRS,BELNR,GJAHR",
+    "MANDATORY_FLAG": "X",
+    "PURPOSE": "Map financial KPI to S/4 table",
+    "VALIDATION_STATUS": "Pending",
+    "NOTES": "Seed example mapping."
+  }
+]

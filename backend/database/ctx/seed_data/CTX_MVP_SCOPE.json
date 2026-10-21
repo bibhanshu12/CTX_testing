@@ -1,0 +1,17 @@
+[
+  {
+    "SCOPE_ID": "SCOPE-001",
+    "MVP_NAME": "MVP1 Inventory",
+    "DOMAIN": "Inventory Management",
+    "SOURCE_SYSTEM": "S/4HANA",
+    "MAIN_BUSINESS_GRAIN": "Material, Plant",
+    "INCLUDED_SCOPE": "Stock valuation, movement classes",
+    "EXCLUDED_SCOPE": "Batch management",
+    "SOURCE_POLICY": "Standard extraction",
+    "WRITEBACK_ALLOWED": "",
+    "NEED_ATTENTION_ENABLED": "X",
+    "EXCEPTION_PRIORITY_ENABLED": "",
+    "STATUS": "Active",
+    "BUSINESS_NOTE": "Seed MVP scope definition."
+  }
+]

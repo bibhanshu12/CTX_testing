@@ -1,0 +1,28 @@
+[
+  {
+    "REQUIREMENT_ID": "REQ-001",
+    "REQUIREMENT_NAME": "Inventory Valuation",
+    "BUSINESS_REQUIREMENT": "Ability to report total material stock value by plant.",
+    "KPI_IDS": "KPI-001",
+    "BUSINESS_GRAIN": "Material, Plant",
+    "EXPECTED_OUTPUT": "Stock value report",
+    "SOURCE_ROLES": "SRC-ROLE-01",
+    "PARAMETER_IDS": "PARAM-001",
+    "RULE_IDS": "RULE-001",
+    "ACCEPTANCE_CRITERIA": "Report matches S/4 standard valuation.",
+    "STATUS": "Approved"
+  },
+  {
+    "REQUIREMENT_ID": "REQ-002",
+    "REQUIREMENT_NAME": "Procurement Backlog",
+    "BUSINESS_REQUIREMENT": "Track open purchase order value.",
+    "KPI_IDS": "KPI-002",
+    "BUSINESS_GRAIN": "Purchase Order",
+    "EXPECTED_OUTPUT": "Open PO value report",
+    "SOURCE_ROLES": "SRC-ROLE-02",
+    "PARAMETER_IDS": "PARAM-002",
+    "RULE_IDS": "",
+    "ACCEPTANCE_CRITERIA": "Report excludes fully delivered POs.",
+    "STATUS": "Approved"
+  }
+]

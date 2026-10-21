@@ -1,0 +1,26 @@
+[
+  {
+    "LINK_ID": "LINK-001",
+    "CONTEXT_TYPE": "KPI",
+    "CONTEXT_ID": "KPI-001",
+    "DOCUMENT_ID": "DOC-001",
+    "DOCUMENT_FILE_NAME": "inventory_valuation_guide.pdf",
+    "SECTION_KEY": "Section 3",
+    "USED_BY_AGENT": "KPI Designer Agent",
+    "WHEN_TO_USE": "When designing stock valuation KPIs",
+    "MANDATORY_FLAG": "X",
+    "STATUS": "Active"
+  },
+  {
+    "LINK_ID": "LINK-002",
+    "CONTEXT_TYPE": "Requirement",
+    "CONTEXT_ID": "REQ-001",
+    "DOCUMENT_ID": "DOC-002",
+    "DOCUMENT_FILE_NAME": "requirements_spec.docx",
+    "SECTION_KEY": "Section 2.1",
+    "USED_BY_AGENT": "Requirements Analyst Agent",
+    "WHEN_TO_USE": "When reviewing requirement coverage",
+    "MANDATORY_FLAG": "",
+    "STATUS": "Active"
+  }
+]

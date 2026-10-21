@@ -1,0 +1,40 @@
+[
+  {
+    "KPI_ID": "KPI-001",
+    "KPI_NAME": "Total Material Stock Value",
+    "REQUIREMENT_ID": "REQ-001",
+    "REQUIREMENT_NAME": "Inventory Valuation",
+    "BUSINESS_DEFINITION": "Sum of stock quantities valuated at moving average price.",
+    "BUSINESS_CALCULATION_LOGIC": "SUM(StockQuantity * MovingAveragePrice)",
+    "BUSINESS_GRAIN": "Material, Plant, Valuation Area",
+    "MIN_HISTORY_DAYS": 30,
+    "PARAMETER_IDS": "PARAM-001",
+    "SOURCE_ROLES": "SRC-ROLE-01",
+    "SAP_CALCULATION_LOGIC": "LABST * MBEW-WAPRK",
+    "SAP_CALCULATION_FORMULA": "LABST * WAPRK",
+    "SAP_TABLE_FIELD_REFERENCES": "MARD.LABST, MBEW.WAPRK",
+    "OUTPUT_UNIT": "Currency",
+    "VALUE_TYPE": "Amount",
+    "MVP_STATUS": "MVP1",
+    "RELATED_MOVEMENT_TYPES": "101,102,261,262"
+  },
+  {
+    "KPI_ID": "KPI-002",
+    "KPI_NAME": "Open Purchase Order Value",
+    "REQUIREMENT_ID": "REQ-002",
+    "REQUIREMENT_NAME": "Procurement Backlog",
+    "BUSINESS_DEFINITION": "Sum of net order value for POs not yet fully delivered/invoiced.",
+    "BUSINESS_CALCULATION_LOGIC": "SUM(NetValue) WHERE delivery status != complete",
+    "BUSINESS_GRAIN": "Purchase Order, Item",
+    "MIN_HISTORY_DAYS": 90,
+    "PARAMETER_IDS": "PARAM-002",
+    "SOURCE_ROLES": "SRC-ROLE-02",
+    "SAP_CALCULATION_LOGIC": "EKKO.NETWR",
+    "SAP_CALCULATION_FORMULA": "NETWR",
+    "SAP_TABLE_FIELD_REFERENCES": "EKKO.NETWR",
+    "OUTPUT_UNIT": "Currency",
+    "VALUE_TYPE": "Amount",
+    "MVP_STATUS": "MVP1",
+    "RELATED_MOVEMENT_TYPES": ""
+  }
+]

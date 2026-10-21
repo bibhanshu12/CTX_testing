@@ -1,0 +1,29 @@
+[
+  {
+    "REL_ID": "REL-001",
+    "RELATIONSHIP_CLASS": "Hierarchy",
+    "LAYER_SCOPE": "Silver",
+    "LEFT_OBJECT": "OBJ-001",
+    "LEFT_S4_TABLE": "MARA",
+    "LEFT_GRAIN": "Material",
+    "LEFT_JOIN_FIELDS": "MATNR",
+    "RIGHT_OBJECT": "OBJ-002",
+    "RIGHT_S4_TABLE": "EKKO",
+    "RIGHT_GRAIN": "Purchase Order Item",
+    "RIGHT_JOIN_FIELDS": "MATNR",
+    "JOIN_PATH": "MARA.MATNR = EKKO.MATNR",
+    "RECOMMENDED_JOIN_TYPE": "Inner",
+    "CARDINALITY_L_TO_R": "1:N",
+    "ASSOCIATION_SEMANTICS": "Composition",
+    "PREAGG_REQUIRED": "",
+    "PREAGG_RULE": "",
+    "STATUS": "Approved",
+    "TECHNICAL_REVIEW_CONDITION": "",
+    "CORE_KPI_IDS": "KPI-001,KPI-002",
+    "OPTIONAL_KPI_IDS": "",
+    "PROOF": "",
+    "CONFIDENCE": "High",
+    "REFERENCE_URL": "",
+    "AI_INSTRUCTION": ""
+  }
+]
